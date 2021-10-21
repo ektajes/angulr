@@ -1,0 +1,8 @@
+.box{
+border: 1px solid black;
+/* padding:2px; */
+border-radius:5px;
+}
+.box *{
+  margin:7px;
+}
