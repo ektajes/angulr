@@ -1,5 +1,5 @@
 export interface Photo{
-image:any,
+image?:any,
 title:string,
 id:number,
 url:any,

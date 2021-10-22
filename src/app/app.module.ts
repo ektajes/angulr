@@ -6,6 +6,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { PhotoService } from './photo.service';
 import { AppComponent } from './app.component';
 import { ComparisonComponent } from './comparison/comparison.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +17,8 @@ import { ComparisonComponent } from './comparison/comparison.component';
 
   BrowserModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [PhotoService],
